@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>WHO AM I</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>WHO<span>AM</span>I</h1>
+      </div>
+    </header>
+    <div class="brief" style="display: block;">
+      <div class="container">
+        <p>
+          اهلا بك  </br>
+          هذا الموقع صمم تحت اشراف خبراء في علم النفس حيث ان كل سؤال مرتبط بدراسات وابحاث تم العمل عليها طويلا</br>
+          نعدك اننا سنقدم لك تحليل دقيق لشخصيتك، وايضا تقديم توقع لاسمك بنسبة نجاح قد تصل الى 97%، ايضا نساعدك في التعرف على الشخص المناسب لك . 
+        كل ما عليك هو الاجابة عن الاسئلة التالية بكل مصداقية </br>
+        نتمنى لك يوم سعيد :)
+        </p>
+      </div>
+    </div>
+
+    <div class="content" style="display: block;">
+      <div class="container">
+        <div class="setOne sss11">
+          <label for="gender">الجنس</label>
+          <input type="radio" name="gender" id="male" /> ذكر
+          <input type="radio" name="gender" id="female" /> انثى
+        </div>
+        <div class="setTwo sss11">
+          <label for="date">تاريخ ميلادك</label>
+          <select name="day" id="day">
+            <option value="" disabled selected hidden>اليوم</option>
+          </select>
+          <select name="month" id="month">
+            <option value="" disabled selected hidden>الشهر</option>
+          </select>
+          <select name="year" id="year">
+            <option value="" disabled selected hidden>السنة</option>
+          </select>
+        </div>
+        <div class="ss1 sss11">
+          <label for="q1">هل تملك الكثير من الاصدقاءالمقربين؟</label> </br>
+          <input type="radio" name="q1" id="" /> نعم لدي الكثير</br>
+          <input type="radio" name="q1" id="" /> لا ليس لدي اطلاقا</br>
+          <input type="radio" name="q1" id="" /> لدي عدد قليل جدا</br>
+        </div>
+        <div class="ss2 sss11">
+          <label for="q1">اواجه صعوبة في التواصل مع الاخرين</label> </br>
+          <input type="radio" name="q2" id="" /> نعم دائما</br>
+          <input type="radio" name="q2" id="" /> لا اطلاقا</br>
+          <input type="radio" name="q2" id="" /> احيانا</br>
+        </div>
+        <div class="ss3 sss11">
+          <label for="q1">يقتنع الناس بوجهة نظري </label> </br>
+          <input type="radio" name="q3" id="" /> بسهولة</br>
+          <input type="radio" name="q3" id="" /> يستغرق وقت </br>
+          <input type="radio" name="q3" id="" /> انا غير مقنع </br>
+        </div>
+        <div class="ss4 sss11">
+          <label for="q1">احب تجربة اشياء جديدة </label> </br>
+          <input type="radio" name="q4" id="" /> نعم احب ذلك</br>
+          <input type="radio" name="q4" id="" /> لا احب</br>
+          <input type="radio" name="q4" id="" /> بعض الاوقات</br>
+        </div>
+        <button>ابدأ التحليل</button>
+      </div>
+
+    </div>
+    <div class="contentTwo" style="display:none;">
+      <div class="container">
+        <div class="name">
+          <h1>توقع اسمك</h1>
+          <p class="nameText"></p>
+        </div>
+
+        <p class="who2"></p>
+      </div>
+    </div>
+    <script src="code.js"></script>
+  </body>
+</html>
